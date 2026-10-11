@@ -1,0 +1,11 @@
+# انسخ هذا الملف إلى .env أو ضع القيم في إعدادات الاستضافة
+PORT=3000
+# رموز الدخول الأولية (تُحفظ مشفّرة في الخادم، ويمكن تغييرها من الإعدادات)
+SUPERVISOR_CODE=1001
+ASSISTANT_CODE=1001
+# LiveKit (من https://cloud.livekit.io — المشروع المجاني يكفي للبداية)
+LIVEKIT_URL=wss://YOUR-PROJECT.livekit.cloud
+LIVEKIT_API_KEY=
+LIVEKIT_API_SECRET=
+# اختياري: مكان حفظ البيانات والصور (يجب أن يكون تخزيناً دائماً)
+# DATA_DIR=/data
